@@ -4,7 +4,7 @@
 # ---------------------------------------------------------------
 
 # Site
-title: NexT
+title: All is well
 subtitle:
 description:
 author: John Doe
@@ -14,7 +14,7 @@ date_format: '%Y-%m-%d'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
-url:
+url: https://mincho8050.github.io
 baseurl:
 permalink: pretty
 

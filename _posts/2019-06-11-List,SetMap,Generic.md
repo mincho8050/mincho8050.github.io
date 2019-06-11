@@ -107,7 +107,7 @@ vec.remove(0);
 
 - 모든 요소 전부 삭제
 
-```JAVA
+```java
 vec.removeAllElements();
 		System.out.println(vec.size());		//출력값 : 0
 		

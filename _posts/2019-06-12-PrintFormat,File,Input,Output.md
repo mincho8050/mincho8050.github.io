@@ -1,10 +1,11 @@
 ---
-title:  "PrintFormat,File,Input,Output"
-date:   2019-06-12 05:16:00
+title:  "PrintFormat,File class,Input,Output"
+date:   2019-06-12 05:10:00
 categories: Java
-tags:basic
+tags: basic
 author: "mincho8050"
 ---
+
 
 # PrintFormat
 

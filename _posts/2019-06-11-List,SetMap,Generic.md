@@ -62,7 +62,7 @@ String str=(String) obj;	//다형성
 System.out.println(str);	//"HAPPY"
 ```
 
-- 5번째 요소고 가져오기
+- 5번째 요소 가져오기
 
 ```java
 Double doub=(Double) vec.get(5);	//가져오면서 동시에 형변환
@@ -109,14 +109,14 @@ vec.remove(0);
 
 ```JAVA
 vec.removeAllElements();
-
 		System.out.println(vec.size());		//출력값 : 0
-
+		
+		
 		if(vec.isEmpty()){ //비어있는지 묻는것. boolean형
 			System.out.println("요소없다");
 		}else{
 			System.out.println("요소있다.");
-}//if
+		}//if
 		//출력값 : 요소없다	
 ```
 

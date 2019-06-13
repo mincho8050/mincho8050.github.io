@@ -3,8 +3,8 @@ title:  "Java test review 01"
 date:   2019-06-13 16:23:00
 categories: JavaReview
 tags:
--review
--java
+- review
+- java
 author: "mincho8050"
 ---
 

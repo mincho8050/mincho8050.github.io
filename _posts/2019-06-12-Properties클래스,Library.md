@@ -1,8 +1,10 @@
 ---
 title:  "Properties클래스,Library"
 date:   2019-06-12 15:00:00
-categories: Java
-tags: basic
+categories: 
+- Java
+tags: 
+- basic
 author: "mincho8050"
 ---
 

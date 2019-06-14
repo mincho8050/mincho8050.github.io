@@ -1,7 +1,8 @@
 ---
 title:  "categories Test"
 date:   2019-06-08 23:12:34
-categories: test
+categories: 
+- test
 author: "mincho8050"
 ---
 

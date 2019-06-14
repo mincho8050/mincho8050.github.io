@@ -1,8 +1,10 @@
 ---
 title:  "Static,final,Calendar클래스"
 date:   2019-06-09 09:52:00
-categories: Java
-tags: basic
+categories: 
+- Java
+tags: 
+- basic
 author: "mincho8050"
 ---
 

@@ -1,8 +1,10 @@
 ---
 title:  "class,생성자함수,기본클래스,Wrapper 클래스"
 date:   2019-06-09 05:16:00
-categories: Java
-tags: basic
+categories: 
+- Java
+tags: 
+- basic
 author: "mincho8050"
 ---
 

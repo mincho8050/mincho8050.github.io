@@ -1,8 +1,9 @@
 ---
 title:  "Exception,getter , setter 함수"
 date:   2019-06-10 13:46:00
-categories: Java
-tags: basic
+categories: - Java
+tags: 
+- basic
 author: "mincho8050"
 ---
 

@@ -1,6 +1,6 @@
 ---
 title:  "Properties클래스,Library"
-date:   2019-06-12 15:00:00
+date:   2019-06-12
 categories: 
 - Java
 tags: 

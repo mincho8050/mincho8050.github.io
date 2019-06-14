@@ -1,6 +1,6 @@
 ---
 title:  "sort,algorithm,Math클래스"
-date:   2019-06-09 03:22:00
+date:   2019-06-09
 categories: 
 - Java
 tags: 

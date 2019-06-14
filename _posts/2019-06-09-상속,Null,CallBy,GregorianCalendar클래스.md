@@ -1,6 +1,6 @@
 ---
 title:  "상속,Null,CallBy,GregorianCalendar클래스"
-date:   2019-06-09 10:23:00
+date:   2019-06-09
 categories: 
 - Java
 tags: 

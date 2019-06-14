@@ -1,14 +1,13 @@
 ---
 title:  "Java test review 04"
-date:   2019-06-14 05:50:00
+date:   2019-06-14 07:20:00
 categories: 
-- Java
-tags:
-- review
+- JavaReview
+tags: 
+- review 
 - java
 author: "mincho8050"
 ---
-
 # Java test review 04
 
 

@@ -1,6 +1,6 @@
 ---
 title:  "Java test review 02"
-date:   2019-06-13 17:20:00
+date:   2019-06-13
 categories: 
 - JavaReview
 tags: 

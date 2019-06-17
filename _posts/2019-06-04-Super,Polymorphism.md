@@ -1,8 +1,9 @@
 ---
 title:  "Super,Polymorphism"
-date:   2019-06-10 02:00:00
+date:   2019-06-04
 categories: Java
-tags: basic
+tags: 
+- basicJava
 author: "mincho8050"
 ---
 

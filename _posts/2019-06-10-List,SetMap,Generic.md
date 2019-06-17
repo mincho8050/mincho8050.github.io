@@ -1,8 +1,9 @@
 ---
 title:  "List,SetMap,Generic"
-date:   2019-06-11 15:10:00
+date:   2019-06-10
 categories: Java
-tags: basic
+tags: 
+- basicJava
 author: "mincho8050"
 ---
 

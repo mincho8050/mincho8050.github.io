@@ -1,8 +1,9 @@
 ---
 title:  "Abstract class,Interface,Anonymous class,Inner class"
-date:   2019-06-11 08:00:00
+date:   2019-06-08
 categories: Java
-tags: basic
+tags: 
+- basicJava
 author: "mincho8050"
 ---
 

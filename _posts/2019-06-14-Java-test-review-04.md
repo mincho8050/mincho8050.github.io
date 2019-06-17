@@ -2,7 +2,7 @@
 title:  "Java test review 04"
 date:   2019-06-14 05:50:00
 categories: 
-- Java
+- JavaReview
 tags:
 - review
 - java

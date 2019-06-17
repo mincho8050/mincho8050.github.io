@@ -1,8 +1,9 @@
 ---
 title:  "PrintFormat,File class,Input,Output"
-date:   2019-06-12 05:10:00
+date:   2019-06-11
 categories: Java
-tags: basic
+tags: 
+- basicJava
 author: "mincho8050"
 ---
 

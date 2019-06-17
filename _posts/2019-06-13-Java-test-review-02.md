@@ -40,7 +40,7 @@ if(start>end){
 System.out.println(a);
 ```
 
->선생님이 하신 방법
+>다른 방법
 >
 >swap : 변수값을 서로 교환.
 

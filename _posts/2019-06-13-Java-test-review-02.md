@@ -5,7 +5,7 @@ categories:
 - JavaReview
 tags: 
 - review 
-- java
+- basicJava
 author: "mincho8050"
 ---
 

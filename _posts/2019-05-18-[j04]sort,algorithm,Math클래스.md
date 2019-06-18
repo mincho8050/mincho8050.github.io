@@ -1,5 +1,5 @@
 ---
-title:  "[bj04]sort,algorithm,Math클래스"
+title:  "[j04]sort,algorithm,Math클래스"
 date:   2019-05-18
 categories: Java
 tags: 

@@ -1,5 +1,5 @@
 ---
-title:  "List,SetMap,Generic"
+title:  "[bj12]List,SetMap,Generic"
 date:   2019-06-10
 categories: Java
 tags: 

@@ -3,7 +3,7 @@ title:  "[bj05]class,생성자함수,기본클래스,Wrapper 클래스"
 date:   2019-05-20
 categories: Java
 tags:
-- basicJava
+- Java
 author: "mincho8050"
 ---
 

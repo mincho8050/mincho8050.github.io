@@ -1,5 +1,5 @@
 ---
-title:  "[j06]Static,final,Calendar클래스"
+title:  "[06]Static,final,Calendar클래스"
 date:   2019-05-21
 categories: Java
 tags:

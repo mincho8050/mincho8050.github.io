@@ -1,9 +1,9 @@
 ---
-title:  "[bj11]Abstract class,Interface,Anonymous class,Inner class"
+title:  "[11]Abstract class,Interface,Anonymous class,Inner class"
 date:   2019-06-08
 categories: Java
 tags: 
-- basicJava
+- Java
 author: "mincho8050"
 ---
 

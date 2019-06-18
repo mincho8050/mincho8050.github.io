@@ -1,5 +1,5 @@
 ---
-title:  "상속,Null,CallBy,GregorianCalendar클래스"
+title:  "[basic07]상속,Null,CallBy,GregorianCalendar클래스"
 date:   2019-05-22
 categories: Java
 tags: 

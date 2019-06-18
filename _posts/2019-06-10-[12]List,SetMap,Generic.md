@@ -1,9 +1,9 @@
 ---
-title:  "[bj12]List,SetMap,Generic"
+title:  "[12]List,SetMap,Generic"
 date:   2019-06-10
 categories: Java
 tags: 
-- basicJava
+- Java
 author: "mincho8050"
 ---
 

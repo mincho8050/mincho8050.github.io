@@ -1,5 +1,5 @@
 ---
-title:  "sort,algorithm,Math클래스"
+title:  "[basic04]sort,algorithm,Math클래스"
 date:   2019-05-18
 categories: Java
 tags: 

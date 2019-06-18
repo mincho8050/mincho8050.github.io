@@ -1,10 +1,10 @@
 ---
-title:  "[bn01]Thread,Network"
+title:  "[15]Thread,Network"
 date:   2019-06-17
 categories: 
 - Java
 tags:
-- basicNetwork
+- Network
 author: "mincho8050"
 ---
 

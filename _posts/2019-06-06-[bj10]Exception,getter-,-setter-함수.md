@@ -1,5 +1,5 @@
 ---
-title:  "Exception,getter , setter 함수"
+title:  "[bj10]Exception,getter , setter 함수"
 date:   2019-06-06
 categories: Java
 tags: 

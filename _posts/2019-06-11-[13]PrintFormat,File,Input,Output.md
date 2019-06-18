@@ -1,9 +1,9 @@
 ---
-title:  "[bj13]PrintFormat,File class,Input,Output"
+title:  "[13]PrintFormat,File class,Input,Output"
 date:   2019-06-11
 categories: Java
 tags: 
-- basicJava
+- Java
 author: "mincho8050"
 ---
 

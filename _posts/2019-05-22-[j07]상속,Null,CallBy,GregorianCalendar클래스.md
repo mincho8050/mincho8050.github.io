@@ -1,9 +1,9 @@
 ---
-title:  "[bj07]상속,Null,CallBy,GregorianCalendar클래스"
+title:  "[j07]상속,Null,CallBy,GregorianCalendar클래스"
 date:   2019-05-22
 categories: Java
 tags: 
-- basicJava
+- Java
 author: "mincho8050"
 ---
 

@@ -1,5 +1,5 @@
 ---
-title:  "Properties클래스,Library"
+title:  "[bj14]Properties클래스,Library"
 date:   2019-06-12
 categories: Java
 tags: 

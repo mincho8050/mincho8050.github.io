@@ -1,9 +1,9 @@
 ---
-title:  "[bj14]Properties클래스,Library"
+title:  "[14]Properties클래스,Library"
 date:   2019-06-12
 categories: Java
 tags: 
-- basicJava
+- Java
 author: "mincho8050"
 ---
 

@@ -1,9 +1,9 @@
 ---
-title:  "[bj08]Super,Polymorphism"
+title:  "[j08]Super,Polymorphism"
 date:   2019-06-04
 categories: Java
 tags: 
-- basicJava
+- Java
 author: "mincho8050"
 ---
 

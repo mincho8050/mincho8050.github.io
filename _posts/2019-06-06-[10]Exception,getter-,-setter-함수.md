@@ -1,9 +1,9 @@
 ---
-title:  "[bj10]Exception,getter , setter 함수"
+title:  "[10]Exception,getter , setter 함수"
 date:   2019-06-06
 categories: Java
 tags: 
-- basicJava
+- Java
 author: "mincho8050"
 ---
 

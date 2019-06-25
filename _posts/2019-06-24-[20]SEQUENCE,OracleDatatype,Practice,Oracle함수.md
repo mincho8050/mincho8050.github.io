@@ -447,7 +447,7 @@ FROM sungjuk
 
 ### 연습
 
-![](./_image/0624image01.PNG)
+![0624image01](https://user-images.githubusercontent.com/49340180/60060093-0d5b0400-972a-11e9-8478-371ba87019b2.PNG)
 
 - 테이블 구조
 
@@ -475,5 +475,5 @@ INSERT INTO emp(empno,ename,job,mrg,hiredate,sal,comm,deptno)
 VALUES(7521,'ward','salesman','7698','1981-02-22',1200,500,30);
 ```
 
-![](./_image/0624image02.PNG)
+![0624image02](https://user-images.githubusercontent.com/49340180/60060114-2794e200-972a-11e9-809c-e96f9fe9b9e5.PNG)
 

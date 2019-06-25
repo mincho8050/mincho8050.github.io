@@ -454,10 +454,10 @@ FROM sungjuk
 ```
 CREATE TABLE emp(
 empno INT 				NOT NULL
-,ename VARCHAR(10) 		NOT NULL
-,job VARCHAR(10) 		NOT NULL
-,mrg CHAR(4) 			NOT NULL
-,hiredate DATE 			NOT NULL
+,ename VARCHAR(10) 			NOT NULL
+,job VARCHAR(10) 			NOT NULL
+,mrg CHAR(4) 				NOT NULL
+,hiredate DATE 				NOT NULL
 ,sal INT				NOT NULL
 ,comm INT
 ,deptno INT	 			NOT NULL

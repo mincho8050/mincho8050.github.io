@@ -429,6 +429,60 @@ SELECT TRUNC(17.825, -1) FROM dual;		--10
 SELECT TRUNC(17.825, -2) FROM dual;		--0
 ```
 
+### 날짜 함수
+
+- SYSDATE	:	현재 날짜, 시간
+
+```
+SELECT SYSDATE FROM dual;	--14/03/24
+```
+
+- MONTHS_BETWEEN(n,m)
+
+> 첫번째 날짜에서 두번째 날짜 사이 개월 수를 반환하는 함수.
+>
+> MONTHS_BETWEEN(m,n) 순서바꿔도됨
+
+```
+SELECT MONTHS_BETWEEN(SYSDATE,TO_DATE(2014-12-11)) FROM dual;	
+```
+
+- ADD_MONTHS(m,n)
+
+> 해당 날짜(m)에 개월 수(n)를 더한 날짜를 반환, 마이너스값도 할 수 있음.
+
+```
+SELECT ADD_MONTHS(SYSDATE,5) FROM dual;
+```
+
+- NEXT_DAY(m,'n')
+
+> 해달 날짜(m)에서 최초로 도래하는 해당 요일('n')의 날짜를 반환하는 함수
+
+```
+SELECT NEXT_DAY(SYSDATE,'금요일') FROM dual;	--14/03/28
+```
+
+- LAST_DAY(m)
+
+> 해달 날짜가 포함되어 있는 달의 마지막 날짜를 반환하는 함수.
+
+```
+SELECT LAST_DAY(SYSDATE) FROM dual;			--14/03/31
+```
+
+
+
+### 형변환 함수
+
+- TO_CHAR(원래날짜,'원하는 모양')
+
+> 숫자와 날짜를 문자로 변환해 주는 두가지 기능
+
+- TO_NUMBER('1')
+
+- TO_DATE('문자','날짜포맷')
+
 
 
 ### 함수 연습

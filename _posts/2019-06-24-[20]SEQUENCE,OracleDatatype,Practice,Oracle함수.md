@@ -216,11 +216,11 @@ FROM sungjuk;
 >
 > > order by wdate desc --내림차순
 >
-> 연결문자 ||
+> 연결문자 '||'
 >
 > > MySQL -> concat() 함수
 > >
-> > select '#'|| addr ||'#'
+> > select '#'| | addr | |'#'
 > >
 > > from sungjuk;
 

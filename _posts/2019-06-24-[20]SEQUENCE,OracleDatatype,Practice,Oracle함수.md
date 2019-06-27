@@ -216,13 +216,7 @@ FROM sungjuk;
 >
 > > order by wdate desc --내림차순
 >
-> 연결문자 '||'
->
-> > MySQL -> concat() 함수
-> >
-> > select '#'| | addr | |'#'
-> >
-> > from sungjuk;
+![08](https://user-images.githubusercontent.com/49340180/60245480-a55a1880-98f7-11e9-9344-08d4dbac79e6.PNG)
 
 ```
 SELECT *

@@ -1,5 +1,5 @@
 ---
-title:  "[19]JdbcOracleDB연동"
+title:  "[19]Jdbc(OracleDB연동,DB연동)"
 date:   2019-06-21
 categories: 
 - Database
@@ -478,5 +478,189 @@ public class Test08_Insert {
 	}//main
 
 }//class
+```
+
+
+
+
+
+
+
+------
+
+
+
+
+
+
+
+# JDBC(Java와MySQL DB연동)
+
+- mysql-connector-java-5.1.47.jar 라이브러리 필요
+
+
+
+
+
+### 행 추가
+
+```java
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+
+public class Test02_Insert {
+
+	public static void main(String[] args) {
+
+		Connection con=null;
+		PreparedStatement pstmt=null;
+		ResultSet rs=null;
+
+		try{
+
+			String url="jdbc:mysql://localhost:3306/java0514?useUnicode=true&characterEncoding=euckr";
+			String user="root";
+			String password="1234";
+			String driver="org.gjt.mm.mysql.Driver";
+			
+
+			Class.forName(driver);
+
+			con=DriverManager.getConnection(url, user, password);
+			System.out.println("MySQL DB 서버 연결 성공!!");
+
+			
+			String uname="슬기";
+			int kor=95,eng=70,mat=30;
+			
+			StringBuilder sql=new StringBuilder();
+			sql.append(" INSERT INTO sungjuk (uname,kor,eng,mat,regdt) ");
+			sql.append(" VALUES (?,?,?,?,now()) ");
+			
+			pstmt=con.prepareStatement(sql.toString());
+			pstmt.setString(1, uname);
+			pstmt.setInt(2, kor);
+			pstmt.setInt(3, eng);
+			pstmt.setInt(4, mat);
+			
+			int result=pstmt.executeUpdate();
+			if(result==0){
+				System.out.println("행추가 실패");
+			}else{
+				System.out.println("행추가 성공");
+			}
+	
+		}catch(Exception e){
+			System.out.println("MySQL DB 연결 실패!"+e);
+		}finally{
+			//자원반납(순서주의!!!!!!)
+			//맨 처음에 열었던걸 나중에 닫기 > 역순
+			
+			try{
+				if(rs!=null){rs.close();}
+			}catch(Exception e){}
+			
+			try{
+				if(pstmt!=null){pstmt.close();}
+			}catch(Exception e){}
+			
+			try{
+				if(con!=null){con.close();}
+			}catch(Exception e){}
+			
+		}//try
+
+	}//main
+
+}//class
+```
+
+
+
+### 행 읽기1(SelectOne)
+
+```java
+int sno=2;
+
+StringBuilder sql=new StringBuilder();
+sql.append(" SELECT sno,uname,kor,eng,mat,tot,aver,regdt ");
+sql.append(" FROM sungjuk ");
+sql.append(" WHERE sno=? ");
+
+pstmt=con.prepareStatement(sql.toString());
+pstmt.setInt(1, sno);
+
+rs=pstmt.executeQuery();
+
+if(rs.next()){
+    System.out.println("자료있음");
+    System.out.print(rs.getInt("sno")+" ");
+    System.out.print(rs.getString("uname")+" ");
+    System.out.print(rs.getInt("kor")+" ");
+    System.out.print(rs.getInt("eng")+" ");
+    System.out.print(rs.getInt("mat")+" ");
+    System.out.print(rs.getInt("tot")+" ");
+    System.out.print(rs.getInt("aver")+" ");
+    System.out.print(rs.getString("regdt").substring(0,10)+" ");
+}else{
+    System.out.println("자료없음");
+}
+```
+
+
+
+
+
+### 행 읽기(SelectAll)
+
+```java
+StringBuilder sql=new StringBuilder();
+sql.append(" SELECT sno,uname,kor,eng,mat,tot,aver,regdt ");
+sql.append(" FROM sungjuk ");
+sql.append(" ORDER BY sno DESC "); //내림차순
+
+pstmt=con.prepareStatement(sql.toString());
+
+rs=pstmt.executeQuery();
+
+if(rs.next()){
+System.out.println("자료있음");
+
+do{
+
+    System.out.print(rs.getInt("sno")+" ");
+    System.out.print(rs.getString("uname")+" ");
+    System.out.print(rs.getInt("kor")+" ");
+    System.out.print(rs.getInt("eng")+" ");
+    System.out.print(rs.getInt("mat")+" ");
+    System.out.print(rs.getInt("tot")+" ");
+    System.out.print(rs.getInt("aver")+" ");
+    System.out.print(rs.getString("regdt").substring(0,10)+" ");
+    System.out.println();
+}while(rs.next());
+```
+
+
+
+
+
+### 행 수정(Update)
+
+```java
+StringBuilder sql=new StringBuilder();
+sql.append(" UPDATE sungjuk ");
+sql.append(" SET tot=(kor+eng+mat) ");
+sql.append(" ,aver=(kor+eng+mat)/3 ");
+
+pstmt=con.prepareStatement(sql.toString());
+
+int result=pstmt.executeUpdate();
+if(result==0){
+    System.out.println("행수정 실패");
+}else{
+    System.out.println("행수정 성공");
+}
 ```
 

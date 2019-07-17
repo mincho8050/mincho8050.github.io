@@ -737,7 +737,7 @@ person.age
 var persons=[
     {"firstName":"John", "lastName":"Doe1", "age":46},//0번째 요소
     {"firstName":"Tom", "lastName":"Doe2", "age":26},//1번째 요소
-    {"firstName":"Sam", "lastName":"Doe3", "age":36}//3번째 요소 마지막에 , 안들어가도록 주의
+    {"firstName":"Sam", "lastName":"Doe3", "age":36}//2번째 요소 마지막에 , 안들어가도록 주의
 ];
 ```
 

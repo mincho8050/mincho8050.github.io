@@ -787,7 +787,7 @@ var obj=JSON.parse(txt);
 
 ```javascript
 var obj={name:"John",age:30,city:"New York"};
-var myJSON=JSON.stringfy(obj);
+var myJSON=JSON.stringify(obj);
 ```
 
 > '{"name":"John","age":30,"city":"New York"}'

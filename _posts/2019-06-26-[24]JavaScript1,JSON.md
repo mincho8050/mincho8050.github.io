@@ -43,7 +43,7 @@ author: "mincho8050"
 
 
 
-##### 1) 자바스크립트는 Object(객체)로 구성되어 있다.
+#### 1) 자바스크립트는 Object(객체)로 구성되어 있다.
 
 - Object = property(field) + method로 구성되어 있다
 - 자바스크립트의 최상위 객체는 window

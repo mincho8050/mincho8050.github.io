@@ -781,7 +781,7 @@ var obj=JSON.parse(txt);
 
 
 
-#### JSON.stringfy()
+#### JSON.stringify()
 
 - JSON값을 일반 문자열로 변환
 

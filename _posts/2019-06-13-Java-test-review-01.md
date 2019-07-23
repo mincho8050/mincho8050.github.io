@@ -123,8 +123,8 @@ char alp=((ch>='A'&&ch<='Z')?(char)(ch+32):(char)(ch-32));
 int a=2,b=6;
 int f=++a*b--;
 
-System.out.println(s);	//++a기 때문에 먼저 증감. 3
-System.out.println(d);	//나중감소 b--여도 단독이면 상관없다. 5
+System.out.println(a);	//++a기 때문에 먼저 증감. 3
+System.out.println(b);	//나중감소 b--여도 단독이면 상관없다. 5
 System.out.println(f);	//2++이기 때문에 3, 나중감소 6--기때문에 6 > 18
 ```
 

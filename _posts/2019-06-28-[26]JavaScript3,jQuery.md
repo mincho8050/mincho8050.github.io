@@ -697,7 +697,7 @@ function killtime(){
 > >
 > > Bootstrap3 Modal Plugin을 활용할 것
 
-```javascript
+```
 window.open("url또는파일명","창이름","옵션");
 ```
 
@@ -705,7 +705,7 @@ window.open("url또는파일명","창이름","옵션");
 
 ### 2) 프린터 대화상자 불러오기
 
-```javascript
+```
 window.print();
 ```
 
@@ -725,7 +725,7 @@ if (confirm("영구히 삭제됩니다\n지울까요?")) {
 
 ### 4) device의 해상도 확인
 
-```javascript
+```
 screen.width
 screen.height
 ```
@@ -760,7 +760,7 @@ history.go(-2);
 - 웹브라우저의 영향을 받는다
   - 예) 아이디저장, 오늘창그만보기
 
-```javascript
+```
 document.cookie
 ```
 

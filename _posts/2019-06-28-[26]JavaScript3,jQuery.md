@@ -770,18 +770,11 @@ document.cookie
 
 ------
 
+
+
 # jQuery
 
-- 자바스크립트 기반의 라이브러리
-
-- 자바스크립트 기반 오픈소스 
-  
-  > .js
-  
-  - jquery / AJAX / Bootstrap / AngularJS / moment
-  - 시각화 : chart / d3 ~
-
-
+![00](https://user-images.githubusercontent.com/49340180/62127365-d53c7780-b30c-11e9-8de6-e62c77fb17bf.PNG)
 
 ![1](https://user-images.githubusercontent.com/49340180/62126848-99ed7900-b30b-11e9-922a-791c9740d08f.PNG)
 

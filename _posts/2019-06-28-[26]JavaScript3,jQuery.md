@@ -1,5 +1,5 @@
 ---
-title:  "[26]JavaScript3"
+title:  "[26]JavaScript3,jQuery"
 date:   2019-06-28
 categories: 
 - Frontend
@@ -773,7 +773,11 @@ document.cookie
 # jQuery
 
 - 자바스크립트 기반의 라이브러리
-- 자바스크립트 기반 오픈소스 .js
+
+- 자바스크립트 기반 오픈소스 
+  
+  > .js
+  
   - jquery / AJAX / Bootstrap / AngularJS / moment
   - 시각화 : chart / d3 ~
 

@@ -27,6 +27,7 @@ author: "mincho8050"
 - PRIMARY KEY : 기본키, 유일성 NULL값을 인정하지 않음 -> 테이블당 1개만 가능
 - FOREIGN KEY : 외래키, 자식테이블이 부모테이블 칼럼을 참조 -> REFERENCES  부모테이블(칼럼명) 
 - UNIQUE : 중복을 허용하지 않음 -> 테이블에 1개 이상 가능
+- CHECK : 특정 데이터만 입력가능
 - NOT NULL : 빈값을 허용하지 않음
 
 예시

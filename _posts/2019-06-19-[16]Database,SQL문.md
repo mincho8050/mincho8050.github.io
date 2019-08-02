@@ -168,7 +168,7 @@ alter table sungjuk add (total int);
 alter table sungjuk modify (uname varchar(50));
 ```
 
-1. uname 칼럼을 null 조건으로 수정
+2. uname 칼럼을 null 조건으로 수정
 
 ```
 alter table sungjuk modify (uname varchar(50) null);

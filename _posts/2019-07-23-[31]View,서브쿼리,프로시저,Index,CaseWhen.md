@@ -524,6 +524,8 @@ CREATE TABLE emp3(
 
 ### 기본골격
 
+> DECLARE는 일시적으로 선언할때
+
 ```
 DECLARE --프로시저 선언문
     --필요한 변수 선언
